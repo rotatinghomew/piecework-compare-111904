@@ -1,0 +1,111 @@
+{
+  "plots": [
+    [
+      "plot",
+      "slope_deg",
+      "haul_metres",
+      "surface"
+    ],
+    [
+      "plot"
+    ]
+  ],
+  "work": [
+    [
+      "block",
+      "plot",
+      "team",
+      "started",
+      "ended",
+      "picked_before_pct",
+      "table_version"
+    ],
+    [
+      "block"
+    ]
+  ],
+  "staff": [
+    [
+      "worker",
+      "block",
+      "role",
+      "from_time",
+      "to_time"
+    ],
+    [
+      "worker",
+      "block"
+    ]
+  ],
+  "baskets": [
+    [
+      "basket",
+      "scale_kg",
+      "sealed_at"
+    ],
+    [
+      "basket"
+    ]
+  ],
+  "custody": [
+    [
+      "basket",
+      "block",
+      "ver",
+      "signed",
+      "known_at",
+      "confirmed_kg"
+    ],
+    [
+      "basket",
+      "block",
+      "ver"
+    ]
+  ],
+  "waiting": [
+    [
+      "block",
+      "from_time",
+      "to_time",
+      "reason"
+    ],
+    []
+  ],
+  "loans": [
+    [
+      "worker",
+      "home_block",
+      "borrowed_block",
+      "from_time",
+      "to_time",
+      "confirmed_at"
+    ],
+    [
+      "worker",
+      "from_time"
+    ]
+  ],
+  "pay_table": [
+    [
+      "version",
+      "cents_per_kg",
+      "floor_hour_cents",
+      "transfer_floor_party"
+    ],
+    [
+      "version"
+    ]
+  ],
+  "payslips": [
+    [
+      "document",
+      "block",
+      "cents",
+      "confirmed_at",
+      "evidence"
+    ],
+    [
+      "document"
+    ]
+  ]
+}

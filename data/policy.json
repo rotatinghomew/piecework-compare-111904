@@ -1,0 +1,13 @@
+{
+  "cutoffs": [
+    "2026-11-06T18:00:00+08:00",
+    "2026-11-09T15:00:00+08:00"
+  ],
+  "next_season_uplift_choices_cents_per_kg": [
+    0,
+    60,
+    120,
+    180
+  ],
+  "payroll_rounding": "分"
+}
