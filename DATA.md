@@ -56,6 +56,30 @@ CSV 为 UTF-8，第一行为列名。日期为北京时间，时间带偏移；�
 
 字段：`document`、`block`、`cents`、`confirmed_at`、`evidence`。
 
+### `season_slots.csv`
+
+新季方案编号、采熟果窗内有效作业分钟上限、可作业天数、主要工种资格及证据不足时的试排上限。开工日不得挪到窗口以外。
+
+字段：`proposal`、`plot`、`month`、`max_picks_min`、`available_days`、`required_skill`、`max_trial_days`。
+
+### `crew_choices.csv`
+
+班长分别提交的可调人工，可为同一个人。工种资格以分号分隔，按共同时间段占用。
+
+字段：`proposal`、`worker`、`skills`、`day`、`start_time`、`end_time`、`claim_party`。
+
+### `season_agreements.csv`
+
+已签的时段和最低成本保护；待定不占最终额度，但可用来比较。
+
+字段：`agreement`、`proposal`、`worker`、`start_at`、`end_at`、`guaranteed_cents`、`state`、`known_at`。
+
+### `dispute_reserves.csv`
+
+这是财务已经收到的预算留置时间线，同号覆盖旧量，审签与付款执行不同。
+
+字段：`dispute`、`block`、`cents`、`stage`、`known_at`。
+
 ### `policy.json`
 
-仅供新季试算，不授权更改既有价目表。
+仅供新季试算，不授权更改既有价目表。共同准备金同时保护待决工资留置、新季已签与新承诺。

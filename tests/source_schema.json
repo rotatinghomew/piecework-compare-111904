@@ -107,5 +107,64 @@
     [
       "document"
     ]
+  ],
+  "season_slots": [
+    [
+      "proposal",
+      "plot",
+      "month",
+      "max_picks_min",
+      "available_days",
+      "required_skill",
+      "max_trial_days"
+    ],
+    [
+      "proposal"
+    ]
+  ],
+  "crew_choices": [
+    [
+      "proposal",
+      "worker",
+      "skills",
+      "day",
+      "start_time",
+      "end_time",
+      "claim_party"
+    ],
+    [
+      "proposal",
+      "worker",
+      "day",
+      "start_time"
+    ]
+  ],
+  "season_agreements": [
+    [
+      "agreement",
+      "proposal",
+      "worker",
+      "start_at",
+      "end_at",
+      "guaranteed_cents",
+      "state",
+      "known_at"
+    ],
+    [
+      "agreement"
+    ]
+  ],
+  "dispute_reserves": [
+    [
+      "dispute",
+      "block",
+      "cents",
+      "stage",
+      "known_at"
+    ],
+    [
+      "dispute",
+      "known_at"
+    ]
   ]
 }
